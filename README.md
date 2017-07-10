@@ -1,5 +1,7 @@
 # Do-you-know-blue
 
+A machine learnign problem.
+
 In 2013, Dan Meyer, Dave Major, and Evan Weinberg created a [contest called "Do you know blue"](http://blog.mrmeyer.com/2013/contest-do-you-know-blue/). This was a math education effort for school students. It is also a great machine learning problem. It basically boils down to: Can you identify if a color is blue from its R, G, B values? You can also read the post from Evan [Students thinking like computer scientists](http://evanweinberg.com/2013/04/19/students-thinking-like-computer-scientists/) to get more info on the education aspect. 
 
 I really liked the educational idea, and when I realised that this was a real machine learning problem (with a hidden larger set of data) I was thrilled. In 2013 I had finished the course [Learning from Data](https://work.caltech.edu/telecourse.html), an excellent machine learning cource that gave me solid foundations expecially on supervised learning and classification problems. A few months afterwards the contest was out and this was a nice way to hone my skills. 
