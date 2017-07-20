@@ -27,7 +27,7 @@ Very happy with the results. You can run the script with the -e flag to output t
 
 ### SVM
 
-I also tried SVM in my python program. It did not perform well (even with 4304 points), needing ~4290 support vectors. I found it hard to believe that this is really the case, but I did not investigate further. In 2017, I revisited the problem in R (see below) and I realised that I was using hard boundaries SVM (C=infty). This was trying to make the Ein = 0. Since I noticed that the database contains several erroneous entries (colors that are clearly not blue classified as blue, and vice versa) it is no surprise that the hard boundary resulted in so many support vectors. A soft boundary (as I did with R) produces much nicer results.
+I also tried Support Vector Machines in my python program. It did not perform well (even with 4304 points), needing ~4290 support vectors. I found it hard to believe that this is really the case, but I did not investigate further. In 2017, I revisited the problem in R (see below) and I realised that I was using hard boundaries SVM (C=infty). This was trying to make the Ein = 0. Since I noticed that the database contains several erroneous entries (colors that are clearly not blue classified as blue, and vice versa) it is no surprise that the hard boundary resulted in so many support vectors. A soft boundary (as I did with R) produces much nicer results.
 
 
 
